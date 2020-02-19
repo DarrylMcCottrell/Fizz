@@ -19,14 +19,12 @@
                 # Dictionary:
                ldr                 x20, =i  // Registered x20 as i        
                bl                  printf // Making capable to print off
-             //  mov                 x2, 100 // registered x2 as 100 to used for my for-loop
-             //  bl                  printf
                ldr                 x21, =pflag // registered x21 as pflag
                bl                  printf
              //  ldr                 x3, 3 // registered x3 as 3 so I can use in udiv     
-               bl                  printf
+              // bl                  printf
                //ldr                 x4, 5 // registered x4 as 5 for udiv
-               bl                  printf
+              // bl                  printf
                 # restore registers
 
                 mov                x20, 0  // initializing i as 0
